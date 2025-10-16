@@ -1,0 +1,101 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: pt-BR
+
+website:
+  title: "Vitória de Lima"
+  favicon: img/favicon.ico
+  navbar:
+    # logo: img/favicon.ico
+    tools:
+    - icon: github
+      href: https://www.github.com/civlima/civlima.github.io
+    right:
+      - text: Sobre
+        aria-label: "Sobre"
+        href: about/index.qmd
+      - text: Blog
+        aria-label: "Blog"
+        href: blog/index.qmd
+      - text: Palestras
+        aria-label: "Palestras"
+        href: talk/index.qmd  
+      - text: Cursos
+        aria-label: "Cursos"
+        href: workshop/index.qmd
+      - text: Disciplinas
+        aria-label: "Disciplinas"
+        href: course/index.qmd
+      - text: Projetos
+        aria-label: "Projetos"
+        href: project/index.qmd
+      - text: Shiny
+        aria-label: "shiny"
+        href: shiny/index.qmd
+      - text: Publicações
+        aria-label: "Publicações"
+        href: publication/index.qmd
+      - text: Orientações
+        aria-label: "Orientações"
+        href: supervisions/index.qmd
+      - text: CV
+        aria-label: "CV"
+        href: https://mauriciovancine.github.io/cv/cv-academic.pdf
+        target: _blank
+      - text: Resumé
+        aria-label: "Resumé"
+        href: https://mauriciovancine.github.io/resume/resume.pdf
+        target: _blank
+
+  page-footer:  
+    left: >-
+     &#169; 2025 Vitória de Lima &#8729; Feito com[Quarto](https://quarto.org){target="_blank"}.
+    center:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/mauriciovancine
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-9650-7575
+      - text: "{{< ai researcherid >}}"
+        aria-label: "ResearcherID"
+        href: https://www.webofscience.com/wos/author/record/837504
+      - text: "{{< ai scopus >}}"
+        aria-label: "Scopus"
+        href: https://www.scopus.com/authid/detail.uri?authorId=57193451888
+      - text: "{{< ai google-scholar >}}"
+        aria-label: "Google Scholar"
+        href: https://scholar.google.com/citations?user=i-2xZBQAAAAJ
+      - text: "{{< ai researchgate >}}"
+        aria-label: "Researchgate"
+        href: https://www.researchgate.net/profile/Mauricio_Vancine2
+      - text: "{{< ai zotero >}}"
+        aria-label: "Zotero"
+        href: https://www.zotero.org/mauriciovancine
+      - text: "{{< ai lattes >}}"
+        aria-label: "Lattes"
+        href: http://lattes.cnpq.br/9761288418931193
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/mauricio-vancine/
+    right:
+      - text: "Contato"
+        aria-label: "Contato"
+        href: contact.qmd
+      - text: "Licença"
+        aria-label: "License Details"
+        href: license.qmd
+      - text: "Financiamento"
+        aria-label: "Financiamento"
+        href: contributors.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+    highlight-style: nord
+    css: styles.css
+    toc: true
+
+editor: visual
