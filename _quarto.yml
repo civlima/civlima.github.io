@@ -16,18 +16,6 @@ website:
       - text: Sobre
         aria-label: "Sobre"
         href: about/index.qmd
-      - text: Blog
-        aria-label: "Blog"
-        href: blog/index.qmd
-      - text: Palestras
-        aria-label: "Palestras"
-        href: talk/index.qmd  
-      - text: Cursos
-        aria-label: "Cursos"
-        href: workshop/index.qmd
-      - text: Disciplinas
-        aria-label: "Disciplinas"
-        href: course/index.qmd
       - text: Projetos
         aria-label: "Projetos"
         href: project/index.qmd
@@ -55,30 +43,18 @@ website:
     center:
       - icon: github
         aria-label: GitHub
-        href: https://github.com/mauriciovancine
+        href: https://github.com/civlima
       - text: "{{< ai orcid >}}"
-        href: https://orcid.org/0000-0001-9650-7575
-      - text: "{{< ai researcherid >}}"
-        aria-label: "ResearcherID"
-        href: https://www.webofscience.com/wos/author/record/837504
-      - text: "{{< ai scopus >}}"
-        aria-label: "Scopus"
-        href: https://www.scopus.com/authid/detail.uri?authorId=57193451888
-      - text: "{{< ai google-scholar >}}"
-        aria-label: "Google Scholar"
-        href: https://scholar.google.com/citations?user=i-2xZBQAAAAJ
+        href: https://orcid.org/0000-0001-5354-1642
       - text: "{{< ai researchgate >}}"
         aria-label: "Researchgate"
-        href: https://www.researchgate.net/profile/Mauricio_Vancine2
-      - text: "{{< ai zotero >}}"
-        aria-label: "Zotero"
-        href: https://www.zotero.org/mauriciovancine
+        href: https://www.researchgate.net/profile/Vitoria-Lima-17
       - text: "{{< ai lattes >}}"
         aria-label: "Lattes"
-        href: http://lattes.cnpq.br/9761288418931193
+        href: http://lattes.cnpq.br/2504455260517419
       - icon: linkedin
         aria-label: LinkedIn
-        href: https://www.linkedin.com/in/mauricio-vancine/
+        href: https://www.linkedin.com/in/vitorialimabio/
     right:
       - text: "Contato"
         aria-label: "Contato"
